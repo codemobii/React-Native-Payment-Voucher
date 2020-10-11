@@ -12,12 +12,12 @@ if ($connection->connect_error) {
 
 $json = json_decode(file_get_contents('php://input'), true);
 
-$query = "INSERT INTO items (serial_number,payment_method,reference_no,item_description,amount, voucher_no) values('$json[serial_number]','$json[payment_method]','$json[reference_no]','$json[item_description]','$json[amount]','$json[voucher_no]')";
+$query = "INSERT INTO vouchers (voucher_no,ledger,account,pay_to,email_address,phone_number,authorized_by,recieved_by) values('$json[voucher_no]','$json[ledger]','$json[account]','$json[pay_to]','$json[email_address]','$json[phone_number]','$json[authorized_by]','$json[recieved_by]')";
 
 $query_result = $connection->query($query);
 
 if ($query_result === true) {
-    $message = 'Item added successfully!';
+    $message = 'Voucher created successfully!';
 } else {
     $message = 'An error occurred! Try Again.(' . $connection->error . ')';
 }

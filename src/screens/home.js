@@ -22,7 +22,7 @@ export default class Home extends Component {
         >
           <Image
             source={require("../../assets/buifort_logo.png")}
-            style={{ width: "90%", height: 200 }}
+            style={{ width: "90%", height: 200, resizeMode: "contain" }}
           />
         </View>
       </>
