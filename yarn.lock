@@ -4666,6 +4666,11 @@ react-native-screens@~2.10.1:
   resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-2.10.1.tgz#06d22fae87ef0ce51c616c34a199726db1403b95"
   integrity sha512-Z2kKSk4AwWRQNCBmTjViuBQK0/Lx0jc25TZptn/2gKYUCOuVRvCekoA26u0Tsb3BIQ8tWDsZW14OwDlFUXW1aw==
 
+react-native-smtp@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-smtp/-/react-native-smtp-1.0.1.tgz#d756f4d9d24b108826ec4544a2ee670371b8ba70"
+  integrity sha512-GogGj3Zvg0jMt1xA9pFbswbyVKg+sOq1BkfSAB/e6tsz7PfDcmXK7urzjuluHbnIiNZ9gMCbHMLWlUnm6CVHbw==
+
 react-native-web@~0.13.12:
   version "0.13.15"
   resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.13.15.tgz#093f45184cda4d8690f7ddf6ba34c02089a2648b"
